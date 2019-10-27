@@ -48,17 +48,16 @@ python global_reasoner.py -DATASET_NAME (rte, newsnli, reddit, awp, stresstest)
 
 ## References
 
-Please cite [[1]](https://arxiv.org/abs/1806.00692) if our work influences your research.
+Please cite [[1]](https://arxiv.org/abs/1901.03735) if our work influences your research.
 
 ### Stress Test Evaluation for Natural Language Inference (COLING 2018)
 
-[1] A. Naik, A. Ravichander, N. Sadeh, C. Rose, G.Neubig, [*Stress Test Evaluation for Natural Language Inference*](https://arxiv.org/abs/1806.00692)
+[1] A. Naik, A. Ravichander, N. Sadeh, C. Rose, G.Neubig, [*Stress Test Evaluation for Natural Language Inference*](https://arxiv.org/abs/1901.03735)
 
 ```
-@inproceedings{naik18coling,
-title = {Stress Test Evaluation for Natural Language Inference},
-author = {Aakanksha Naik and Abhilasha Ravichander and Norman Sadeh and Carolyn Rose and Graham Neubig},
-booktitle = {The 27th International Conference on Computational Linguistics (COLING)},
-address = {Santa Fe, New Mexico, USA},
-month = {August},
-year = {2018} }
+@article{ravichander2019equate,
+  title={EQUATE: A Benchmark Evaluation Framework for Quantitative Reasoning in Natural Language Inference},
+  author={Ravichander, Abhilasha and Naik, Aakanksha and Rose, Carolyn and Hovy, Eduard},
+  journal={arXiv preprint arXiv:1901.03735},
+  year={2019}
+}'''
