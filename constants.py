@@ -7,22 +7,22 @@ tagset = load('help/tagsets/upenn_tagset.pickle').keys()
 datasets = {"mnli_num": {"data_path": "./multinli_0.9_quant_comb.jsonl", "classes": 3,
                          },
 
-            "rte": {"data_path": "/usr0/home/anaik/EQUATE/RefactoredCode/ProcessedDatasets/RTE_Quant.jsonl",
+            "rte": {"data_path": "./ProcessedDatasets/RTE_Quant.jsonl",
                     "classes": 2,
                     },
 
-            "stresstest": {"data_path": "/usr0/home/anaik/EQUATE/RefactoredCode/ProcessedDatasets/StressTest.jsonl",
+            "stresstest": {"data_path": "./ProcessedDatasets/StressTest.jsonl",
                            "classes": 3,
                            },
 
-            "awp": {"data_path": "/usr0/home/anaik/EQUATE/RefactoredCode/ProcessedDatasets/AWPNLI.jsonl", "classes": 2,
+            "awp": {"data_path": "./ProcessedDatasets/AWPNLI.jsonl", "classes": 2,
                     },
 
-            "reddit": {"data_path": "/usr0/home/anaik/EQUATE/RefactoredCode/ProcessedDatasets/RedditNLI.jsonl",
+            "reddit": {"data_path": "./ProcessedDatasets/RedditNLI.jsonl",
                        "classes": 3,
                        },
 
-            "qnli": {"data_path": "/usr0/home/anaik/EQUATE/RefactoredCode/ProcessedDatasets/NewsNLI.jsonl",
+            "newsnli": {"data_path": "./ProcessedDatasets/NewsNLI.jsonl",
                      "classes": 2,
                      }
             }
