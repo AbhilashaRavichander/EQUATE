@@ -1,7 +1,7 @@
 # EQUATE
 
 
-This repository contains the EQUATE dataset, and the Q-REAS symbolic reasoning baseline[[1]](https://arxiv.org/abs/1806.00692).
+This repository contains the EQUATE dataset, and the Q-REAS symbolic reasoning baseline[[1]](https://arxiv.org/abs/1901.03735).
 
 ## EQUATE
 
@@ -50,9 +50,9 @@ python global_reasoner.py -DATASET_NAME (rte, newsnli, reddit, awp, stresstest)
 
 Please cite [[1]](https://arxiv.org/abs/1901.03735) if our work influences your research.
 
-### Stress Test Evaluation for Natural Language Inference (COLING 2018)
+### EQUATE: A Benchmark Evaluation Framework for Quantitative Reasoning in Natural Language Inference (CoNLL 2019)
 
-[1] A. Naik, A. Ravichander, N. Sadeh, C. Rose, G.Neubig, [*Stress Test Evaluation for Natural Language Inference*](https://arxiv.org/abs/1901.03735)
+[1] A. Ravichander*, A. Naik*, C. Rose, E. Hovy [*EQUATE: A Benchmark Evaluation Framework for Quantitative Reasoning in Natural Language Inference*](https://arxiv.org/abs/1901.03735)
 
 ```
 @article{ravichander2019equate,
