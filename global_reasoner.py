@@ -353,10 +353,10 @@ if __name__ == "__main__":
                         help='Evaluate on awp')
     parser.add_argument('-mnli', dest='mnli', action='store_true',
                         help='Evaluate on mnli')
-    parser.add_argument('-qnli', dest='qnli', action='store_true',
-                        help='Evaluate on qnli')
+    parser.add_argument('-newsnli', dest='newsnli', action='store_true',
+                        help='Evaluate on newsnli')
     parser.add_argument('-reddit', dest='reddit', action='store_true',
-                        help='Evaluate on qnli')
+                        help='Evaluate on reddit')
 
     reasoner = EntailmentReasoner()
 
@@ -389,8 +389,8 @@ if __name__ == "__main__":
         results_dict["Reddit"] = round(acc * 100.0, 2)
 
     '''QNLI'''
-    if args.qnli:
-        acc = reasoner.predict("qnli")
-        # results_dict["QNLI"] = round(acc * 100.0, 2)
+    if args.newsnli:
+        acc = reasoner.predict("newsnli")
+        results_dict["NewsNLI"] = round(acc * 100.0, 2)
 
     create_latex_table_row(results_dict, "NumReasoner", train_name="multinli")
