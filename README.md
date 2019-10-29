@@ -6,7 +6,7 @@ This repository contains the EQUATE dataset, and the Q-REAS symbolic reasoning b
 ## EQUATE
 
 EQUATE (Evaluating Quantitative Understanding Aptitude in Textual Entailment) is a new framework for evaluating quantitative reasoning ability in textual entailment.
-EQUATE consists of five NLI test sets featuring quantities. You can download EQUATE [here](https://github.com/AbhilashaRavichander/EQUATE/tree/master/ProcessedDatasets) Three of these tests for quantitative reasoning feature language from real-world sources
+EQUATE consists of five NLI test sets featuring quantities. You can download EQUATE [here](https://github.com/AbhilashaRavichander/EQUATE/tree/master/ProcessedDatasets). Three of these tests for quantitative reasoning feature language from real-world sources
 such as news articles and social media (RTE, NewsNLI Reddit), and two are controlled synthetic tests, evaluating model ability
 to reason with quantifiers and perform simple arithmetic (AWP, Stress Test).
 
