@@ -50,7 +50,7 @@ analyzes them to determine entailment labels
 2. Quantity Parser: numerical_parser.py (uses utils_parser.py)
 3. Quantity Pruner: numset_pruner.py
 4. ILP Equation Generator: ilp.py
-5. Global Reasoner: global_reasoner.py (uses utils_reasoner.py, scorer,py, eval.py)
+5. Global Reasoner: global_reasoner.py (uses utils_reasoner.py, scorer.py, eval.py)
 ### How to Run Q-Reas
 
 #### Running on EQUATE
