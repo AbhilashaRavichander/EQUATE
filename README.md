@@ -46,7 +46,8 @@ analyzes them to determine entailment labels
 
 #### Running Q-Reas on EQUATE
 
-To run Q-Reas on EQUATE, you will need to run the following command:
+You can run Q-Reas on EQUATE with the following command:
+
 ```python global_reasoner.py -DATASET_NAME (rte, newsnli, reddit, awp, stresstest)```
 
 Q-Reas consists of the following components:
