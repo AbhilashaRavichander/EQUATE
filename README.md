@@ -37,8 +37,8 @@ parsed into semantic representations called NUMSETS
 4. Justifications are constructed for each quantity in the hypothesis
 5. Justifications are analyzed to determine entailment labels
 
-<img src="https://www.github.com/AbhilashaRavichander/EQUATE/blob/master/models.pdf">
-<!--![][https://www.github.com/AbhilashaRavichander/EQUATE/blob/master/models.pdf]-->
+<!--<img src="https://www.github.com/AbhilashaRavichander/EQUATE/blob/master/models.pdf">-->
+![][https://www.github.com/AbhilashaRavichander/EQUATE/blob/master/models.pdf]
 
 ### How to Run Q-Reas
 
