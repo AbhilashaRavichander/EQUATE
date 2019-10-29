@@ -38,7 +38,7 @@ parsed into semantic representations called NUMSETS
 5. Justifications are analyzed to determine entailment labels
 
 <!--<img src="https://www.github.com/AbhilashaRavichander/EQUATE/blob/master/models.pdf">-->
-![][https://www.github.com/AbhilashaRavichander/EQUATE/blob/master/models.pdf]
+![Q-Reas][https://www.github.com/AbhilashaRavichander/EQUATE/blob/master/models.pdf]
 
 ### How to Run Q-Reas
 
