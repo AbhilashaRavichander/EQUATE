@@ -39,24 +39,27 @@ analyzes them to determine entailment labels
 
 ![Qreas](qreas.jpeg?raw=true)
 
-### Code organization:
-#### Data structures:
-1. numset.py: Defines semantic representation for a quantity
-2. parsed_numsets.py: Stores extracted NUMSETS for a premise-hypothesis pair
-3. compatible_numsets.py: Stores compatible pairs of NUMSETS
 
-#### Correspondence between modules and code files:
+
+
+### How to Run Q-Reas
+
+#### Running Q-Reas on EQUATE
+
+To run Q-Reas on EQUATE, you will need to run the following command:
+python global_reasoner.py -DATASET_NAME (rte, newsnli, reddit, awp, stresstest)
+
+Q-Reas consists of the following components:
 1. Quantity Segmenter: quantity_segmenter.py (uses utils_segmenter.py)
 2. Quantity Parser: numerical_parser.py (uses utils_parser.py)
 3. Quantity Pruner: numset_pruner.py
 4. ILP Equation Generator: ilp.py
 5. Global Reasoner: global_reasoner.py (uses utils_reasoner.py, scorer.py, eval.py)
-### How to Run Q-Reas
 
-#### Running on EQUATE
-
-python global_reasoner.py -DATASET_NAME (rte, newsnli, reddit, awp, stresstest)
-
+and utilizes the following data structures:
+1. numset.py: Defines semantic representation for a quantity
+2. parsed_numsets.py: Stores extracted NUMSETS for a premise-hypothesis pair
+3. compatible_numsets.py: Stores compatible pairs of NUMSETS
 
 ## References
 
