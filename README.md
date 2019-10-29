@@ -40,6 +40,7 @@ parsed into semantic representations called NUMSETS
 <img src="https://www.github.com/AbhilashaRavichander/EQUATE/blob/master/models.pdf">
 ![Q-Reas][https://www.github.com/AbhilashaRavichander/EQUATE/blob/master/models.pdf]
 
+
 ### How to Run Q-Reas
 
 #### Running on EQUATE
