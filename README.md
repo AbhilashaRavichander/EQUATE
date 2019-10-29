@@ -29,16 +29,28 @@ We also provide a baseline quantitative reasoner Q-Reas. Q-Reas manipulates quan
 We hope this provides a framework for the development of hybrid neuro-symbolic architectures to combine the strengths of symbolic reasoners and
 neural models.
 
-Q-Reas has five stages:
-1. Quantity mentions are extracted and
-parsed into semantic representations called NUMSETS
-2. Compatible NUMSETS are identified
-3. Compatible numsets are composed to form plausible equation trees
-4. Justifications are constructed for each quantity in the hypothesis
-5. Justifications are analyzed to determine entailment labels
+Q-Reas has five modules:
+1. Quantity Segmenter: Extracts quantity mentions
+2. Quantity Parser: Parses mentions into semantic representations called NUMSETS
+3. Quantity Pruner: Identifies compatible NUMSET pairs
+4. ILP Equation Generator: Composes compatible NUMSETS to form plausible equation trees
+5. Global Reasoner: Constructs justifications for each quantity in the hypothesis,
+analyzes them to determine entailment labels
 
 ![Qreas](qreas.jpeg?raw=true)
 
+### Code organization:
+#### Data structures:
+1. numset.py: Defines semantic representation for a quantity
+2. parsed_numsets.py: Stores extracted NUMSETS for a premise-hypothesis pair
+3. compatible_numsets.py: Stores compatible pairs of NUMSETS
+
+#### Correspondence between modules and code files:
+1. Quantity Segmenter: quantity_segmenter.py (uses utils_segmenter.py)
+2. Quantity Parser: numerical_parser.py (uses utils_parser.py)
+3. Quantity Pruner: numset_pruner.py
+4. ILP Equation Generator: ilp.py
+5. Global Reasoner: global_reasoner.py (uses utils_reasoner.py, scorer,py, eval.py)
 ### How to Run Q-Reas
 
 #### Running on EQUATE
